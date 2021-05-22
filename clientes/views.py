@@ -19,7 +19,7 @@ class ClientesViewSet(viewsets.ModelViewSet):
     search_fields = ['nome', 'cpf']
     filterset_fields = ['ativo']
 
-    authentication_classes = [BasicAuthentication]
+    authentication_classes = [SessionAuthentication, BasicAuthentication]
     permission_classes = [IsAuthenticated]
 
     def get(self, request, format=None):

@@ -1,5 +1,6 @@
-# Boas praticas de desenvovilmento de apis
+# Boas praticas no desenvovilmento de apis com django Rest Framework
 ## Tecnologias ultilizada para prover a api-customer
+
 * Python
 * Django Rest Framework
 * Django
@@ -15,7 +16,7 @@ corra o seguinte comando no seu cmd/propt de comando
 neste passo serão feitas algumas perguntas atraves do seu prompt de comando para efetivamente criar um super user !
 ### 3 - ```python manage.py runserver```
 
-e voilà apalicação estara rodando!
+E voilà apalicação estara rodando!
 
 # Após a configuração!
 
